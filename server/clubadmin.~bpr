@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="clubadmin.exe"/>
+    <OBJFILES value="clubadmin.obj about.obj add_money.obj add_time.obj cassa.obj clients.obj 
+      date_time.obj freeafter.obj journal.obj login.obj main.obj movemoney.obj 
+      msg.obj new_packet.obj new_session.obj new_sessionM.obj newmanager.obj 
+      proxy.obj pwd_dlg.obj replace.obj root_login.obj sel_man.obj services.obj 
+      settings.obj selcomp.obj"/>
+    <RESFILES value="clubadmin.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) about.dfm add_time.dfm cassa.dfm clients.dfm date_time.dfm 
+      freeafter.dfm journal.dfm login.dfm main.dfm msg.dfm new_packet.dfm 
+      new_session.dfm new_sessionM.dfm newmanager.dfm pwd_dlg.dfm replace.dfm 
+      root_login.dfm sel_man.dfm services.dfm settings.dfm selcomp.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="qrpt.lib RxDB6.lib RxCtl6.lib tee.lib tmsc6.lib dbnav.lib vclsmp.lib 
+      bcbsmp.lib bdertl.lib ExGrid.lib ZMySqlCB5.lib ZCOMMONCB5.lib 
+      ZDbwareCB5.lib vcldb.lib dbrtl.lib OFFICEVCL5.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib OFFICEVCL5.lib dbrtl.lib vcldb.lib ZDbwareCB5.lib 
+      ZCOMMONCB5.lib ZMySqlCB5.lib ExGrid.lib bdertl.lib bcbsmp.lib vclsmp.lib 
+      dbnav.lib tmsc6.lib tee.lib RxCtl6.lib RxDB6.lib qrpt.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi teeui.bpi teedb.bpi tee.bpi dss.bpi 
+      dsnap.bpi vclie.bpi inetdb.bpi inet.bpi nmfast.bpi webdsnap.bpi bcbie.bpi 
+      dclocx.bpi ZCommonCB5.bpi ZDbwareCB5.bpi ZMySqlCB5.bpi dbnav.bpi 
+      OfficeVCL5.bpi ExGrid.bpi media.bpi XmlDS.bpi audio.bpi tmsc5.bpi 
+      vclsmp.bpi ibxpress.bpi tmsxlsc5.bpi TMSDEC5.bpi teeqr.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="clubadmin.cpp"/>
+    <INCLUDEPATH value="E:\COMPONENTS\TMSComponentPack;$(BCB)\include;$(BCB)\include\vcl;E:\COMPONENTS\flatcontrols;e:\components\dbnav;e:\components\exdbgrid;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units;E:\COMPONENTS\zeosdbo\common;E:\COMPONENTS\zeosdbo\dbase;e:\components\quickrpt"/>
+    <LIBPATH value="E:\COMPONENTS\TMSComponentPack;E:\COMPONENTS\flatcontrols;e:\components\dbnav;e:\components\exdbgrid;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units;E:\COMPONENTS\zeosdbo\common;E:\COMPONENTS\zeosdbo\dbase;e:\components\quickrpt"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IE:\COMPONENTS\TMSComponentPack -I$(BCB)\include -I$(BCB)\include\vcl 
+      -IE:\COMPONENTS\flatcontrols -Ie:\components\dbnav 
+      -Ie:\components\exdbgrid -I$(BCB)\Projects\Lib -I$(BCB)\lib\obj 
+      -I$(BCB)\lib -IE:\COMPONENTS\RX\Units -IE:\COMPONENTS\zeosdbo\common 
+      -IE:\COMPONENTS\zeosdbo\dbase -Ie:\components\quickrpt -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -6 -b- -k- -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -GD -s -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="clubadmin.cpp" FORMNAME="" UNITNAME="clubadmin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clubadmin.res" FORMNAME="" UNITNAME="clubadmin.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="aboutfrm" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="add_money.cpp" FORMNAME="" UNITNAME="add_money" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="add_time.cpp" FORMNAME="addmoneyfrm" UNITNAME="add_time" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cassa.cpp" FORMNAME="Form13" UNITNAME="cassa" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="clients.cpp" FORMNAME="Form15" UNITNAME="clients" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="date_time.cpp" FORMNAME="Form11" UNITNAME="date_time" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="freeafter.cpp" FORMNAME="freecompfrm" UNITNAME="freeafter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="journal.cpp" FORMNAME="logfrm" UNITNAME="journal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="login.cpp" FORMNAME="loginfrm" UNITNAME="login" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="mainfrm" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="movemoney.cpp" FORMNAME="" UNITNAME="movemoney" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="msg.cpp" FORMNAME="msgfrm" UNITNAME="msg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="new_packet.cpp" FORMNAME="newpacketfrm" UNITNAME="new_packet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="new_session.cpp" FORMNAME="newsessionfrm" UNITNAME="new_session" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="new_sessionM.cpp" FORMNAME="newsessionMfrm" UNITNAME="new_sessionM" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="newmanager.cpp" FORMNAME="newmanagerfrm" UNITNAME="newmanager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="proxy.cpp" FORMNAME="" UNITNAME="proxy" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pwd_dlg.cpp" FORMNAME="Form7" UNITNAME="pwd_dlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="replace.cpp" FORMNAME="movefrm" UNITNAME="replace" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="root_login.cpp" FORMNAME="Form9" UNITNAME="root_login" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sel_man.cpp" FORMNAME="Form8" UNITNAME="sel_man" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="services.cpp" FORMNAME="servicesfrm" UNITNAME="services" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="settings.cpp" FORMNAME="Form6" UNITNAME="settings" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="selcomp.cpp" FORMNAME="selCompFrm" UNITNAME="selcomp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=0
+Release=1
+Build=2
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=UTC
+FileDescription=Clubadmin server
+FileVersion=2.0.1.2
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=ClubAdmin
+ProductVersion=2.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=E:\COMPONENTS\TMSComponentPack;$(BCB)\include;$(BCB)\include\vcl;E:\COMPONENTS\flatcontrols;e:\components\dbnav;e:\components\exdbgrid;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units;E:\COMPONENTS\zeosdbo\common;E:\COMPONENTS\zeosdbo\dbase;e:\components\quickrpt
+Item1=E:\COMPONENTS\TMSComponentPack\;$(BCB)\include;$(BCB)\include\vcl;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item2=E:\COMPONENTS\TMSComponentPack;$(BCB)\include;$(BCB)\include\vcl;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item3=$(BCB)\include;$(BCB)\include\vcl;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item4=E:\projects\IPGuard\server\;$(BCB)\include;$(BCB)\include\vcl;E:\projects\IPGuard\server\;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item5=E:\projects\IPGuard\server\;$(BCB)\include;$(BCB)\include\vcl
+Item6=E:\projects\IPGuard\server;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=9
+Item0=E:\COMPONENTS\TMSComponentPack;E:\COMPONENTS\flatcontrols;e:\components\dbnav;e:\components\exdbgrid;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units;E:\COMPONENTS\zeosdbo\common;E:\COMPONENTS\zeosdbo\dbase;e:\components\quickrpt
+Item1=E:\COMPONENTS\TMSComponentPack\;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item2=E:\COMPONENTS\TMSComponentPack;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item3=E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item4=E:\projects\IPGuard\server\;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item5=E:\projects\IPGuard\server;E:\COMPONENTS\flatcontrols\;e:\components\dbnav\;e:\components\exdbgrid\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\;E:\COMPONENTS\zeosdbo\common\;E:\COMPONENTS\zeosdbo\dbase\;e:\components\quickrpt\
+Item6=E:\projects\IPGuard\server\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units\
+Item7=E:\projects\IPGuard\server;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;E:\COMPONENTS\RX\Units
+Item8=E:\projects\IPGuard\server;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
